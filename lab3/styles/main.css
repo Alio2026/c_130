@@ -1,0 +1,98 @@
+/* استخدام متغيرات الألوان لسهولة التعديل وتوحيد الهوية */
+:root {
+    --bg-color: #f7f3ed; /* لون بيجي هادي ومريح */
+    --card-bg: #ffffff;
+    --text-color: #4a403b; /* بني دافئ مريح للعين */
+    --accent-color: #bfa181; /* بيجي غامق/ذهبي خفيف */
+    --hover-color: #8c6d53;
+}
+
+body {
+    background-color: var(--bg-color);
+    color: var(--text-color);
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: var(--card-bg);
+    padding: 20px;
+    border-bottom: 2px solid var(--accent-color);
+    text-align: center;
+}
+
+header h1 {
+    color: var(--text-color);
+    font-size: 1.8rem;
+    margin-bottom: 10px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav a {
+    color: var(--text-color);
+    text-decoration: none;
+    font-weight: bold;
+    padding: 5px 10px;
+}
+
+/* Pseudo-class selectors للتفاعل مع الروابط */
+nav a:hover, nav a:focus, a:hover, a:focus {
+    color: var(--hover-color);
+    background-color: #f0e6dc;
+    border-radius: 4px;
+}
+
+main {
+    max-width: 900px;
+    margin: 30px auto;
+    padding: 20px;
+    background-color: var(--card-bg);
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.05);
+}
+
+section {
+    margin-bottom: 30px;
+}
+
+h2, h3 {
+    color: var(--hover-color);
+    border-bottom: 1px solid #e6d7cc;
+    padding-bottom: 8px;
+}
+
+.featured-img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 6px;
+    margin-top: 15px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* استخدام float و clear للتنسيق المطلوب في اللاب */
+.about-section {
+    overflow: hidden;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: var(--card-bg);
+    border-top: 1px solid var(--accent-color);
+    margin-top: 40px;
+    font-size: 0.9rem;
+}

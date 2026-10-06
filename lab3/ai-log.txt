@@ -1,0 +1,6 @@
+AI Tool Used: Google Gemini
+Prompt 1: Create a two-page beginner HTML website for CIS-130 about tarot and zodiac energy, using semantic HTML (index.html, meetings.html), an images folder, and an external CSS file named styles/main.css. Added comments and a peaceful spiritual theme in English.
+Response 1: Generated complete English HTML structures with semantic tags, lists, links, and alt texts for images.
+Prompt 2: Create a beginner-level CSS file for styles/main.css using type, class, ID selectors, pseudo-classes (:hover, :focus), relative units, float/clear, and a CSS custom property (var) with a comfortable beige color palette suitable for a spiritual and tarot audience.
+Response 2: Provided the clean external stylesheet adhering to all rubric constraints.
+Manual Adjustments: Organized directory structure, verified file paths, and ensured proper English text formatting.
