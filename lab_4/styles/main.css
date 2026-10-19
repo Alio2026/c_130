@@ -1,0 +1,36 @@
+/* 1. Global Box-Sizing Reset */
+* {
+    box-sizing: border-box;
+}
+
+/* 2. Content Boxes Styling */
+.content-box {
+    padding: 1em;
+    margin-bottom: 1em;
+    border: 2px solid #2e7d32;
+    /* Nature green style */
+    border-radius: 10px;
+    background-color: #f1f8e9;
+}
+
+/* 3. Flexbox Layout for Main and Sidebar */
+.page-layout {
+    display: flex;
+    flex-direction: row;
+    padding: 1em;
+}
+
+.main-content {
+    flex-basis: 65%;
+    padding-right: 1em;
+}
+
+.sidebar {
+    flex-basis: 35%;
+}
+
+/* 4. Prevent Images from Overflowing */
+img {
+    max-width: 100%;
+    height: auto;
+}
