@@ -1,6 +1,17 @@
 AI Tool Used: Google Gemini
-Prompt 1: Create a two-page beginner HTML website for CIS-130 about tarot and zodiac energy, using semantic HTML (index.html, meetings.html), an images folder, and an external CSS file named styles/main.css. Added comments and a peaceful spiritual theme in English.
-Response 1: Generated complete English HTML structures with semantic tags, lists, links, and alt texts for images.
-Prompt 2: Create a beginner-level CSS file for styles/main.css using type, class, ID selectors, pseudo-classes (:hover, :focus), relative units, float/clear, and a CSS custom property (var) with a comfortable beige color palette suitable for a spiritual and tarot audience.
-Response 2: Provided the clean external stylesheet adhering to all rubric constraints.
-Manual Adjustments: Organized directory structure, verified file paths, and ensured proper English text formatting.
+
+1. Original Prompt:
+I am a beginner CIS-130 student practicing HTML and CSS. Help me create a two-page website about pet birds called Feathered Friends. Use semantic HTML, one external stylesheet, relative links, image with useful alt text, lists, external link, class, ID, descendant selector, link pseudo-classes, relative/absolute CSS units, float and clear, and CSS custom property. Do not use JavaScript or frameworks.
+
+2. Revised Adaptive Prompt:
+Revise the layout spacing and image styling using float, clear, margin, padding, %, em, and px. Do not use Flexbox or Grid. Explain the changes in beginner-friendly terms.
+
+3. Debugging / Code-Review Prompt:
+Check if index.html properly uses semantic structural tags, exactly one h1, and connects to styles/main.css with correct relative path.
+
+4. Agentic-Style Review Prompt:
+Act as a beginner web-development review agent. Audit index.html, details.html, and main.css against the CIS-130 Lab 3 requirements checklist and recommend minimal corrections.
+
+5. Reflections:
+- Useful AI Contribution: The AI successfully structured semantic HTML elements (header, nav, main, section, footer) and generated clean CSS variables.
+- Required Correction: I had to adjust image float behavior and fix internal links to ensure seamless relative navigation between index.html and details.html.
